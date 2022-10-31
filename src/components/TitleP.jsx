@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillInstagram, AiFillContainer} from 'react-icons/ai';
+import { AiFillLinkedin, AiFillInstagram, AiFillContainer, AiFillGithub} from 'react-icons/ai';
 import Wave from 'react-wavify';
 import TypeWriterEffect from 'react-typewriter-effect';
 
@@ -22,11 +22,14 @@ const TitleP = () => {
           />
         </div >
         <div className="flex justify-center gap-3 text-4xl py-3">
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sihota.jovan/?hl=en">
+             <AiFillInstagram className="hover:scale-150"/>
+          </a>
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jsihota123/">
             <AiFillLinkedin className="hover:scale-150"/>
           </a>
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sihota.jovan/?hl=en">
-            <AiFillInstagram className="hover:scale-150"/>
+          <a target="_blank" rel="noreferrer" href="https://github.com/tennis99">
+            <AiFillGithub className="hover:scale-150"/>
           </a>
           <a href="Wave">
            <AiFillContainer className="hover:scale-150"/>
