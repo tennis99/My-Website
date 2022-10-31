@@ -28,11 +28,7 @@ function App() {
       <VerticalTimeline>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
-          let showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== "";
-
+          
           return (
             
             <VerticalTimelineElement
@@ -50,16 +46,6 @@ function App() {
                 {element.location}
               </h5>
               <p id="description">{element.description}</p>
-              {showButton && (
-                <a
-                  className={`button ${
-                    isWorkIcon ? "workButton" : "schoolButton"
-                  }`}
-                  href="/"
-                >
-                  {element.buttonText}
-                </a>
-              )}
             </VerticalTimelineElement>
           );
         })}

@@ -28,9 +28,9 @@ const TitleP = () => {
           <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sihota.jovan/?hl=en">
             <AiFillInstagram className="hover:scale-150"/>
           </a>
-          <button download>
+          <a href="Wave">
            <AiFillContainer className="hover:scale-150"/>
-          </button>
+          </a>
         </div>
       </div>
       <Wave
