@@ -13,7 +13,7 @@ let timelineElements = [
       title: "Data Analyst/Developer",
       location: "Vancouver Airport Authority",
       description:
-        "W",
+        "Analyzed historical data and made programs in java to help automate the excel data sheet to my manager's specific needs. While programming in Qlik sense to automate desired data into live charts. That was used for staffing purposes to see where the employees in the airport terminal should put their interests.",
        date: "May 2022 - August 2022",
       icon: "work",
     },
