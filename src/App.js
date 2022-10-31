@@ -6,8 +6,7 @@ import TitleP from './components/TitleP';
 
 import MySkills from './components/MySkills';
 
-import { ReactComponent as WorkIcon } from "./work.svg";
-import { ReactComponent as SchoolIcon } from "./school.svg";
+
 import timelineElements from "./timelineElements";
 
 import {
@@ -27,16 +26,13 @@ function App() {
       <h2 data-aos='fade-up' className="text-3xl py-[3rem] text-center px-4 font-bold text-white">My Work Experience</h2>
       <VerticalTimeline>
         {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === "work";
-          
+
           return (
             
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
-              dateClassName="date"
-              
-              icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              dateClassName="date"    
             >
               
               <h3 className="vertical-timeline-element-title font-bold text-2xl">
