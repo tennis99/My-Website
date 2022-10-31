@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { BsPatchCheckFill } from 'react-icons/bs';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import './smt.css'
+import './Skills.css'
 
 
 const MySkills = () => {
