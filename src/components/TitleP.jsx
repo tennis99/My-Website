@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillLinkedin, AiFillInstagram, AiFillContainer, AiFillGithub} from 'react-icons/ai';
 import Wave from 'react-wavify';
 import TypeWriterEffect from 'react-typewriter-effect';
-
+import Resume from '../assets/Updated Resume.pdf'
 
 const TitleP = () => {
   return (
@@ -21,7 +21,7 @@ const TitleP = () => {
           eraseSpeed={100}
           />
         </div >
-        <div className="flex justify-center gap-3 text-4xl py-3">
+        <div className=" App flex justify-center gap-3 text-4xl py-3">
           <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sihota.jovan/?hl=en">
              <AiFillInstagram className="hover:scale-150"/>
           </a>
@@ -31,7 +31,7 @@ const TitleP = () => {
           <a target="_blank" rel="noreferrer" href="https://github.com/tennis99">
             <AiFillGithub className="hover:scale-150"/>
           </a>
-          <a href="Wave">
+          <a href={Resume} target="_blank" rel='noreferrer'>
            <AiFillContainer className="hover:scale-150"/>
           </a>
         </div>
