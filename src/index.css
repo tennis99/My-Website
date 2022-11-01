@@ -48,8 +48,8 @@ h3 {
   .vertical-timeline-element-date {
     display: block !important;
     float: none !important;
-    color: rgb(44, 44, 44);
-    margin-top: 1.5em;
+    color: white;
+    
   }
 } 
 @media only screen and (max-width: 1024px){

@@ -4,7 +4,7 @@ let timelineElements = [
       title: "QA Analyst/Developer",
       location: "James Evans & Associates Ltd",
       description:
-        "Worked on automating cross-platform test scripts in Katalon using Groovy. To test the PENFAX-5 software for our three different clients SHEPP, OPTS and PEBA. Worked in a scrum/agile environment which allowed me to work closely with the front-end developers, back-end developers, business analysts and computer architects to help point out issues regarding data setup, button functionality and label functionality.",
+        "Executed different levels of testing, analyzed and reported test results, generated and followed up with data setup issues leading back to the database. While automating cross-platform test scripts in Katalon using Groovy to test the front end of all our pension software projects for our three different clients SHEPP, OPTS and PEBA. Worked in a scrum/agile team environment which allowed me to work closely with the front-end developers, back-end developers, business analysts and computer architects to help point out issues regarding data setup, button functionality and label functionality. As well as see what jira tickets need to be completed for the client in the current sprint.",
       date: "September 2022 - Present",
       icon: "work",
     },
@@ -13,7 +13,7 @@ let timelineElements = [
       title: "Data Analyst/Developer",
       location: "Vancouver Airport Authority",
       description:
-        "Analyzed historical data and made programs in java to help automate the excel data sheet to my manager's specific needs. While programming in Qlik sense to automate desired data into live charts. That was used for staffing purposes to see where the employees in the airport terminal should be staffed..",
+        "Analyzed historical and current data to make programs in Java to help automate excel sheets to managers and upper managements specific needs. While also using qlik sense to automate desired data into live updating charts that could be used for staffing purposes to see where an employee should be placed in the terminal. Lots of teamwork and communication involved to help debug coding issues and excel formulas  before presenting various projects to upper management.",
        date: "May 2022 - August 2022",
       icon: "work",
     },
