@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillLinkedin, AiFillInstagram, AiFillContainer, AiFillGithub} from 'react-icons/ai';
 import Wave from 'react-wavify';
 import TypeWriterEffect from 'react-typewriter-effect';
-import Resume from '../assets/Updated Resume.pdf'
+import Resume from '../assets/UpdatedResume.pdf'
 
 const TitleP = () => {
   return (
