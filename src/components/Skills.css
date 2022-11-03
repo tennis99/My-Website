@@ -10,7 +10,7 @@
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid ;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border: 1px;
     
 }
@@ -58,6 +58,8 @@
 @media screen and (max-width: 600px){
     .skill_container{
         gap: 1rem;
+        margin-left: -3rem;
+        
     }
     .skill_container > div{
         width: 100%;   

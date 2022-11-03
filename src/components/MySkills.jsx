@@ -120,12 +120,6 @@ const MySkills = () => {
             <article className="skill_detail">
               <BsPatchCheckFill className="skill_detail-icon text-white"/>
               <div>
-                <h4 className="text-white" >Jira</h4>
-              </div>
-            </article>
-            <article className="skill_detail">
-              <BsPatchCheckFill className="skill_detail-icon text-white"/>
-              <div>
                 <h4 className="text-white" >VS Code</h4>
               </div>
             </article>
