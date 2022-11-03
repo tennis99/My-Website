@@ -58,7 +58,7 @@
 @media screen and (max-width: 600px){
     .skill_container{
         gap: 1rem;
-        margin-left: -2rem;
+        margin-left: -2.2rem;
         
     }
     .skill_container > div{
