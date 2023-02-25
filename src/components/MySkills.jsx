@@ -25,6 +25,18 @@ const MySkills = () => {
             <article className="skill_detail">
               <BsPatchCheckFill className="skill_detail-icon text-white"/>
               <div>
+                <h4 className="text-white" >Typescript</h4>
+              </div>
+            </article>
+            <article className="skill_detail">
+              <BsPatchCheckFill className="skill_detail-icon text-white"/>
+              <div>
+                <h4 className="text-white" >SQL</h4>
+              </div>
+            </article>
+            <article className="skill_detail">
+              <BsPatchCheckFill className="skill_detail-icon text-white"/>
+              <div>
                 <h4 className="text-white">Java</h4>
               </div>
             </article>
@@ -67,7 +79,7 @@ const MySkills = () => {
           </div>
         </div>
         <div className="skill_back" data-aos="fade-left">
-          <h3 className="text-2xl">Softwares & Frameworks</h3>
+          <h3 className="text-2xl">Softwares, Frameworks & Developer Tools</h3>
           <div className="skill_content">
             <article className="skill_detail">
                 <BsPatchCheckFill className="skill_detail-icon text-white"/>
@@ -75,6 +87,18 @@ const MySkills = () => {
                   <h4 className="text-white" >React</h4>
                 </div>
               </article>
+              <article className="skill_detail">
+              <BsPatchCheckFill className="skill_detail-icon text-white"/>
+              <div>
+                <h4 className="text-white" >Node.js</h4>
+              </div>
+            </article>
+            <article className="skill_detail">
+              <BsPatchCheckFill className="skill_detail-icon text-white"/>
+              <div>
+                <h4 className="text-white" >Redux</h4>
+              </div>
+            </article>
               <article className="skill_detail">
               <BsPatchCheckFill className="skill_detail-icon text-white"/>
               <div>
@@ -91,6 +115,12 @@ const MySkills = () => {
               <BsPatchCheckFill className="skill_detail-icon text-white"/>
               <div>
                 <h4 className="text-white" >SourceTree</h4>
+              </div>
+            </article>
+            <article className="skill_detail">
+              <BsPatchCheckFill className="skill_detail-icon text-white"/>
+              <div>
+                <h4 className="text-white" >Docker</h4>
               </div>
             </article>
             <article className="skill_detail">
@@ -114,7 +144,7 @@ const MySkills = () => {
             <article className="skill_detail">
               <BsPatchCheckFill className="skill_detail-icon text-white"/>
               <div>
-                <h4 className="text-white" >Tailwind</h4>
+                <h4 className="text-white" >Tailwind CSS</h4>
               </div>
             </article>
             <article className="skill_detail">
